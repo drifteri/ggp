@@ -49,6 +49,34 @@
         "CMAKE_CXX_COMPILER": "clang++",
         "CMAKE_BUILD_TYPE": "RelWithDebInfo"
       }
+    },
+    {
+      "name": "unixlike-arm-clang-debug",
+      "displayName": "clang arm Debug",
+      "description": "Target an ARM Unix-like OS with the clang compiler, debug build type",
+      "inherits": "conf-unixlike-common",
+      "architecture": {
+        "value": "arm64"
+      },
+      "cacheVariables": {
+        "CMAKE_C_COMPILER": "clang",
+        "CMAKE_CXX_COMPILER": "clang++",
+        "CMAKE_BUILD_TYPE": "Debug"
+      }
+    },
+    {
+      "name": "unixlike-arm-clang-release",
+      "displayName": "clang arm Release",
+      "description": "Target Unix-like OS with the clang compiler, release build type",
+      "inherits": "conf-unixlike-common",
+      "architecture": {
+        "value": "arm64"
+      },
+      "cacheVariables": {
+        "CMAKE_C_COMPILER": "clang",
+        "CMAKE_CXX_COMPILER": "clang++",
+        "CMAKE_BUILD_TYPE": "RelWithDebInfo"
+      }
     }
   ]
 }

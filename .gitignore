@@ -1,0 +1,5 @@
+# Build directories and binaries
+build/
+out/
+cmake-build-*/
+conan-cache/

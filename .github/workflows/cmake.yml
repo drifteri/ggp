@@ -31,6 +31,8 @@ jobs:
         cmake: true
         ninja: true
         cppcheck: true
+        conan: true
+        
         compiler: ${{matrix.compilers}}
 
     - name: cmake_configure

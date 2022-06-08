@@ -30,6 +30,7 @@ jobs:
       with:
         cmake: true
         ninja: true
+        cppcheck: true
         compiler: ${{matrix.compilers}}
 
     - name: cmake_configure
